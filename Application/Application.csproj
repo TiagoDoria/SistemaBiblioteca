@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Autor\Commands\" />
-    <Folder Include="Features\Autor\Handlers\" />
     <Folder Include="Features\Autor\Queries\" />
     <Folder Include="Features\Genero\Commands\" />
     <Folder Include="Features\Genero\Handlers\" />
@@ -16,6 +14,11 @@
     <Folder Include="Features\Livro\Commands\" />
     <Folder Include="Features\Livro\Handlers\" />
     <Folder Include="Features\Livro\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
   </ItemGroup>
 
 </Project>
