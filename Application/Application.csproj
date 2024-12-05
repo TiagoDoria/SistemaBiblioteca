@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Autor\Commands\" />
+    <Folder Include="Features\Autor\Handlers\" />
+    <Folder Include="Features\Autor\Queries\" />
+    <Folder Include="Features\Genero\Commands\" />
+    <Folder Include="Features\Genero\Handlers\" />
+    <Folder Include="Features\Genero\Queries\" />
+    <Folder Include="Features\Livro\Commands\" />
+    <Folder Include="Features\Livro\Handlers\" />
+    <Folder Include="Features\Livro\Queries\" />
+  </ItemGroup>
+
+</Project>
