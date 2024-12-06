@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\buscartodosautoresqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\buscartodosautoresqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\livro\\handlers\\buscarlivroqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\livro\\handlers\\buscarlivroqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\genero\\handlers\\buscargeneroqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\genero\\handlers\\buscargeneroqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\buscarautorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\buscarautorqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\queries\\buscarautorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\queries\\buscarautorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\queries\\buscartodosautoresquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\queries\\buscartodosautoresquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\buscartodosautoresqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\buscartodosautoresqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,44 +75,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BuscarLivroQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Livro\\Handlers\\BuscarLivroQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Livro\\Handlers\\BuscarLivroQueryHandler.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Livro\\Handlers\\BuscarLivroQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Livro\\Handlers\\BuscarLivroQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:59:47.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuscarGeneroQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Genero\\Handlers\\BuscarGeneroQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Genero\\Handlers\\BuscarGeneroQueryHandler.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Genero\\Handlers\\BuscarGeneroQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Genero\\Handlers\\BuscarGeneroQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:57:34.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuscarAutorQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\BuscarAutorQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\BuscarAutorQueryHandler.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\BuscarAutorQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\BuscarAutorQueryHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:44:19.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuscarAutorQuery.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:42:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BuscarTodosAutoresQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
               "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
               "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T15:59:12.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BuscarTodosAutoresQuery.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
               "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
               "RelativeToolTip": "Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T15:55:25.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositoryBase.cs",
               "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:18:51.016Z"
+              "WhenOpened": "2024-12-06T03:18:51.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
@@ -104,11 +173,12 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:08:28.791Z"
+              "WhenOpened": "2024-12-06T03:08:28.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "DeletarAutorCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
@@ -121,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DeletarAutorCommand.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
@@ -129,23 +199,25 @@
               "RelativeToolTip": "Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:01:34.832Z"
+              "WhenOpened": "2024-12-06T03:01:34.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CriarAutorCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
               "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
               "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:03:27.53Z"
+              "WhenOpened": "2024-12-06T02:03:27.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "AutorDTO.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\DTOs\\AutorDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\AutorDTO.cs",
@@ -153,11 +225,12 @@
               "RelativeToolTip": "Application\\DTOs\\AutorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:24:19.073Z"
+              "WhenOpened": "2024-12-06T02:24:19.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AutorEntity.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\AutorEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\AutorEntity.cs",
@@ -165,11 +238,12 @@
               "RelativeToolTip": "Domain\\Entities\\AutorEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:54:12.183Z"
+              "WhenOpened": "2024-12-06T02:54:12.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "GeneroEntity.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\GeneroEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\GeneroEntity.cs",
@@ -177,11 +251,12 @@
               "RelativeToolTip": "Domain\\Entities\\GeneroEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:11:18.33Z"
+              "WhenOpened": "2024-12-06T02:11:18.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "LivroEntity.cs",
               "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\LivroEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\LivroEntity.cs",
@@ -189,7 +264,8 @@
               "RelativeToolTip": "Domain\\Entities\\LivroEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:15:56.587Z"
+              "WhenOpened": "2024-12-06T02:15:56.587Z",
+              "EditorCaption": ""
             }
           ]
         }

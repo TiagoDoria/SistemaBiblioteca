@@ -8,12 +8,11 @@
 
   <ItemGroup>
     <Folder Include="Features\Genero\Commands\" />
-    <Folder Include="Features\Genero\Queries\" />
-    <Folder Include="Features\Livro\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="7.0.2" />
     <PackageReference Include="MediatR" Version="12.4.1" />
   </ItemGroup>
 
