@@ -2,7 +2,7 @@
 
 namespace Domain.Interfaces
 {
-    public interface ILivroRepository : IRepositoryBase<Livro>
+    public interface ILivroRepository : IRepositoryBase<LivroEntity>
     {
     }
 }

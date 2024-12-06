@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    public class AutorRepository : RepositoryBase<Autor>, IAutorRepository
+    public class AutorRepository : RepositoryBase<AutorEntity>, IAutorRepository
     {
         public AutorRepository(DbContext context) : base(context)
         {

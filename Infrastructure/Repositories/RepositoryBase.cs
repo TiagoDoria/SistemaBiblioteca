@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Linq.Expressions;
 
 namespace Infrastructure.Repositories
@@ -16,21 +17,42 @@ namespace Infrastructure.Repositories
         }
 
         // Adicionar uma entidade
-        public async Task AddAsync(TEntity entity)
+        public async Task<TEntity> AddAsync(TEntity entity)
         {
             await _dbSet.AddAsync(entity);
+            await _context.SaveChangesAsync();
+            return entity;
         }
 
         // Atualizar uma entidade
-        public void Update(TEntity entity)
+        public async Task<TEntity> Update(TEntity entity)
         {
             _dbSet.Update(entity);
+            await _context.SaveChangesAsync();
+            return entity;
         }
 
         // Remover uma entidade
-        public void Remove(TEntity entity)
+        public async Task<bool> Remove(Guid id)
         {
-            _dbSet.Remove(entity);
+            try
+            {
+                TEntity? entity = await _dbSet.FindAsync(id);
+
+                if (entity == null) return false;
+
+                _dbSet.Remove(entity);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (DbUpdateException)  
+            {
+                return false;
+            }
+            catch (Exception) 
+            {
+                return false;
+            }
         }
 
         // Obter todos os registros
@@ -40,7 +62,7 @@ namespace Infrastructure.Repositories
         }
 
         // Obter por ID
-        public async Task<TEntity> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(Guid id)
         {
             return await _dbSet.FindAsync(id);
         }
@@ -49,11 +71,6 @@ namespace Infrastructure.Repositories
         public async Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate)
         {
             return await _dbSet.Where(predicate).ToListAsync();
-        }
-
-        public async Task SaveChangesAsync()
-        {
-            await _context.SaveChangesAsync();
         }
     }
 }

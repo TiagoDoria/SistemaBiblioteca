@@ -1,6 +1,8 @@
 ﻿using Application.DTOs;
 using Application.Features.Autor.Commands;
 using AutoMapper;
+using Domain.Entities;
+using Domain.Interfaces;
 using MediatR;
 
 namespace Application.Features.Autor.Handlers
@@ -16,15 +18,17 @@ namespace Application.Features.Autor.Handlers
             _mapper = mapper;
         }
 
-        public async Task<Autor> Handle(CriarAutorCommand request, CancellationToken cancellationToken)
+        public async Task<AutorDTO> Handle(CriarAutorCommand request, CancellationToken cancellationToken)
         {
             try
             {
-                var autorDto = request.Autor;
+                var autorDto = request.AutorDto;
 
-                var autor = _mapper.Map<Autor>(autorDto);
+                var autor = _mapper.Map<AutorEntity>(autorDto);
 
-                return await _repository.AddAsync(autor);
+                await _repository.AddAsync(autor);
+
+                return _mapper.Map<AutorDTO>(autor);
             }
             catch (Exception ex)
             {

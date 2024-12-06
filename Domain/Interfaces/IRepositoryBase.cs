@@ -4,12 +4,11 @@ namespace Domain.Interfaces
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {
-        Task AddAsync(TEntity entity);
-        void Update(TEntity entity);
-        void Remove(TEntity entity);
+        Task<TEntity> AddAsync(TEntity entity);
+        Task<TEntity> Update(TEntity entity);
+        Task<bool> Remove(Guid id);
         Task<IEnumerable<TEntity>> GetAllAsync();
-        Task<TEntity> GetByIdAsync(int id);
+        Task<TEntity> GetByIdAsync(Guid id);
         Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
-        Task SaveChangesAsync();
     }
 }

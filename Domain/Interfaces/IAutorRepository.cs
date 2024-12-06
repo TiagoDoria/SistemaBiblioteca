@@ -2,7 +2,7 @@
 
 namespace Domain.Interfaces
 {
-    public interface IAutorRepository : IRepositoryBase<Autor>
+    public interface IAutorRepository : IRepositoryBase<AutorEntity>
     {
     }
 }

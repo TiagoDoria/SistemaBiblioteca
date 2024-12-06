@@ -2,7 +2,7 @@
 
 namespace Domain.Interfaces
 {
-    public interface IGeneroRepository : IRepositoryBase<Genero>
+    public interface IGeneroRepository : IRepositoryBase<GeneroEntity>
     {
     }
 }

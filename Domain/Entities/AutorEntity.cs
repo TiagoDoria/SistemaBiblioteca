@@ -2,11 +2,11 @@
 
 namespace Domain.Entities
 {
-    public class Autor
+    public class AutorEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public NomeVO Nome { get; set; }
         public DataNascimentoVO Nascimento { get; set; }
-        public ICollection<Livro> Livros { get; set; }
+        public ICollection<LivroEntity> Livros { get; set; }
     }
 }

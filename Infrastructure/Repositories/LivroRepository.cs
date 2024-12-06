@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
-    public class LivroRepository : RepositoryBase<Livro>, ILivroRepository
+    public class LivroRepository : RepositoryBase<LivroEntity>, ILivroRepository
     {
         public LivroRepository(DbContext context) : base(context)
         {
