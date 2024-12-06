@@ -5,11 +5,11 @@ namespace Application.Features.Autor.Commands
 {
     public class CriarAutorCommand : IRequest<AutorDTO>
     {
-        public AutorDTO AutorDto { get; set; }
+        public AutorDTO Autor { get; set; }
 
-        public CriarAutorCommand(AutorDTO _autorDto)
+        public CriarAutorCommand(AutorDTO _autor)
         {
-            AutorDto = _autorDto;
+            Autor = _autor;
         }
     }
 }

@@ -1,53 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\",
+  "WorkspaceRootPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\handlers\\atualizarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\atualizarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\commands\\atualizarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\commands\\atualizarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\commands\\criarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\commands\\criarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\deletarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\commands\\deletarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\features\\autor\\commands\\deletarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\commands\\deletarautorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\domain\\entities\\autorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\domain\\entities\\autorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\autorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\domain\\entities\\generoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\domain\\entities\\generoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\generoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\domain\\entities\\livroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\domain\\entities\\livroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\livroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,54 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CriarAutorCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\CriarAutorCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Commands\\CriarAutorCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\CriarAutorCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Autor\\Commands\\CriarAutorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:32:55.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AtualizarAutorCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\AtualizarAutorCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Commands\\AtualizarAutorCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\AtualizarAutorCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Autor\\Commands\\AtualizarAutorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:32:43.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AtualizarAutorCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\AtualizarAutorCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\AtualizarAutorCommandHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\AtualizarAutorCommandHandler.cs",
-              "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\AtualizarAutorCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:27:36.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Repositories\\RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,107 +63,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:08:28.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T03:08:28.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "DeletarAutorCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
               "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\DeletarAutorCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T03:03:39.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "DeletarAutorCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
               "RelativeToolTip": "Application\\Features\\Autor\\Commands\\DeletarAutorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T03:01:34.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T03:01:34.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CriarAutorCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
               "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:03:27.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T02:03:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\DTOs\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AutorDTO.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\DTOs\\AutorDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\AutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:24:19.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutorEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\AutorEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AutorEntity.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\AutorEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\AutorEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:54:12.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GeneroEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\GeneroEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\GeneroEntity.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\GeneroEntity.cs",
+              "RelativeToolTip": "Domain\\Entities\\GeneroEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:11:18.33Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AutorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\DTOs\\AutorDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\AutorDTO.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\DTOs\\AutorDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\AutorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:24:19.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AutorEntity.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Entities\\AutorEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\AutorEntity.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Entities\\AutorEntity.cs",
-              "RelativeToolTip": "Domain\\Entities\\AutorEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:54:12.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GeneroEntity.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Entities\\GeneroEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\GeneroEntity.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Entities\\GeneroEntity.cs",
-              "RelativeToolTip": "Domain\\Entities\\GeneroEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:11:18.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "LivroEntity.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Entities\\LivroEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\LivroEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\LivroEntity.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Entities\\LivroEntity.cs",
+              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Entities\\LivroEntity.cs",
               "RelativeToolTip": "Domain\\Entities\\LivroEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:15:56.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T02:15:56.587Z"
             }
           ]
         }

@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Features\Autor\Queries\" />
     <Folder Include="Features\Genero\Commands\" />
-    <Folder Include="Features\Genero\Handlers\" />
     <Folder Include="Features\Genero\Queries\" />
     <Folder Include="Features\Livro\Commands\" />
     <Folder Include="Features\Livro\Handlers\" />
