@@ -20,7 +20,7 @@ namespace Application.Features.Livro.Handlers
 
         public async Task<LivroDTO> Handle(AtualizarLivroCommand request, CancellationToken cancellationToken)
         {
-            var livro = _mapper.Map<LivroEntity>(request.Genero);
+            var livro = _mapper.Map<LivroEntity>(request.Livro);
 
             await _livroRepository.Update(livro);
 

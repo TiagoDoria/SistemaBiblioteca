@@ -1,12 +1,12 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
-using Microsoft.EntityFrameworkCore;
+using Infrastructure.Data;
 
 namespace Infrastructure.Repositories
 {
     public class LivroRepository : RepositoryBase<LivroEntity>, ILivroRepository
     {
-        public LivroRepository(DbContext context) : base(context)
+        public LivroRepository(BibliotecaContext context) : base(context)
         {
         }
     }

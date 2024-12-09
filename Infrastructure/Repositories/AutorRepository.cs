@@ -1,12 +1,12 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
-using Microsoft.EntityFrameworkCore;
+using Infrastructure.Data;
 
 namespace Infrastructure.Repositories
 {
     public class AutorRepository : RepositoryBase<AutorEntity>, IAutorRepository
     {
-        public AutorRepository(DbContext context) : base(context)
+        public AutorRepository(BibliotecaContext context) : base(context)
         {
         }
     }

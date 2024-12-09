@@ -25,7 +25,7 @@ namespace SistemaBiblioteca.Controllers
 
         /*
          ResponseDTO = modelo padrão de retorno dos endpoints
-         var command = new CreateCustomerCommand(customerDto) = criando o comando para criar cliente
+         var command = new CriarAutorCommand(autorDto) = criando o comando para criar autor
          _mediator.Send(command) = padrão para realizar a comunicação entre o command e o handler
          */
         [HttpPost]
@@ -49,7 +49,7 @@ namespace SistemaBiblioteca.Controllers
                 _response.IsSuccess = false;
                 _response.Message = ex.Message;
                 _response.StatusCode = HttpStatusCode.BadRequest;
-                Log.Error(ex, "Ocorreu um erro ao executar a operação AddAsync: " + ex.Message);
+                Log.Error(ex, "Ocorreu um erro ao executar a operação CriarAutorAsync: " + ex.Message);
             }
 
             return Ok(_response);
@@ -79,7 +79,7 @@ namespace SistemaBiblioteca.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult<RespostaDTO>> Update([FromBody] AutorDTO autorDto)
+        public async Task<ActionResult<RespostaDTO>> AtualizarAutorAsync([FromBody] AutorDTO autorDto)
         {
             try
             {
@@ -96,14 +96,14 @@ namespace SistemaBiblioteca.Controllers
                 _response.IsSuccess = false;
                 _response.StatusCode = HttpStatusCode.BadRequest;
                 _response.Message = e.Message;
-                Log.Error(e, "Ocorreu um erro ao executar a operação Update: " + e.Message);
+                Log.Error(e, "Ocorreu um erro ao executar a operação AtualizarAutor: " + e.Message);
             }
 
             return Ok(_response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<RespostaDTO>>> FindAllAsync()
+        public async Task<ActionResult<IEnumerable<RespostaDTO>>> BuscarTodosAutoresAsync()
         {
             var query = new BuscarTodosAutoresQuery();
             var autores = await _mediator.Send(query);
@@ -115,7 +115,7 @@ namespace SistemaBiblioteca.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<RespostaDTO>> Delete(Guid id)
+        public async Task<ActionResult<RespostaDTO>> DeletarAutorAsync(Guid id)
         {
             try
             {

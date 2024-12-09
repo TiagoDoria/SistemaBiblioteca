@@ -22,7 +22,7 @@ namespace Application.Features.Autor.Handlers
         {
             try
             {
-                var autorDto = request.AutorDto;
+                var autorDto = request.Autor;
 
                 var autor = _mapper.Map<AutorEntity>(autorDto);
 

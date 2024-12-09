@@ -1,12 +1,12 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
-using Microsoft.EntityFrameworkCore;
+using Infrastructure.Data;
 
 namespace Infrastructure.Repositories
 {
     public class GeneroRepository : RepositoryBase<GeneroEntity>, IGeneroRepository
     {
-        public GeneroRepository(DbContext context) : base(context)
+        public GeneroRepository(BibliotecaContext context) : base(context)
         {
         }
     }

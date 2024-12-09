@@ -1,16 +1,16 @@
 ﻿using Domain.Interfaces;
+using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Linq.Expressions;
 
 namespace Infrastructure.Repositories
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
-        protected readonly DbContext _context;
+        protected readonly BibliotecaContext _context;
         protected readonly DbSet<TEntity> _dbSet;
 
-        public RepositoryBase(DbContext context)
+        public RepositoryBase(BibliotecaContext context)
         {
             _context = context;
             _dbSet = _context.Set<TEntity>();
