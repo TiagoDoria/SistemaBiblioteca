@@ -178,3 +178,8 @@ C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\De
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\net6.0\SistemaBiblioteca.pdb
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\net6.0\SistemaBiblioteca.genruntimeconfig.cache
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\net6.0\ref\SistemaBiblioteca.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

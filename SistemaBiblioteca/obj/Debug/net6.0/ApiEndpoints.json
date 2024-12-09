@@ -61,7 +61,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Application.DTOs.RespostaDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Application.DTOs.RespostaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -185,7 +185,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Application.DTOs.RespostaDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Application.DTOs.RespostaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -309,7 +309,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Application.DTOs.RespostaDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Application.DTOs.RespostaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
