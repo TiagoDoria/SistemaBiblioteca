@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DV41+sGIMHs=",
+  "dgSpecHash": "d2dHNP7CJ2M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

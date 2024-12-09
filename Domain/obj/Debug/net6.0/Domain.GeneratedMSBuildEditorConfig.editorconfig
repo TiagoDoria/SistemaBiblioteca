@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Domain
-build_property.ProjectDir = C:\Users\DELL\Desktop\SistemaBiblioteca\Domain\
+build_property.ProjectDir = C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,13 +1,19 @@
-﻿namespace Application.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Application.DTOs
 {
     public class LivroDTO
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
+        [Required]
         public string Nome { get; set; }
+        [Required(ErrorMessage = "Data Lançamento é obrigatório.")]
         public DateTime DataLancamento { get; set; }
-        public int AutorId { get; set; }
+        [Required(ErrorMessage = "Autor é obrigatório.")]
+        public Guid AutorId { get; set; }
         public AutorDTO AutorDto { get; set; }
-        public int GeneroId { get; set; }
+        [Required(ErrorMessage = "Gênero é obrigatório.")]
+        public Guid GeneroId { get; set; }
         public GeneroDTO Genero { get; set; }
     }
 }

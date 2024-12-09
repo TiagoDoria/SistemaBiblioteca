@@ -3,14 +3,13 @@ using Application.Features.Genero.Commands;
 using Application.Features.Genero.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
 using System.Net;
 
 namespace SistemaBiblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class GeneroController : ControllerBase
+    public class GeneroController : BaseController
     {
         private readonly ILogger<GeneroController> _logger;
         private RespostaDTO _response;
@@ -33,49 +32,33 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                if (generoDto == null) return BadRequest();
-                if (!ModelState.IsValid) return BadRequest();
-
                 var command = new CriarGeneroCommand(generoDto);
                 await _mediator.Send(command);
-
-                _response.Result = generoDto;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Genero cadastrado com sucesso!";
+                return CreateResponse(generoDto, "Genero cadastrado com sucesso!", true, HttpStatusCode.Created);
             }
             catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.Message = ex.Message;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                Log.Error(ex, "Ocorreu um erro ao executar a operação AddAsync: " + ex.Message);
+                return HandleError(ex, nameof(CriarGeneroAsync));
             }
-
-            return Ok(_response);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<RespostaDTO>> BuscarGeneroPorIdAsync(Guid id)
         {
-            var query = new BuscarGeneroPorIdQuery(id);
-            var genero = await _mediator.Send(query);
-
-            if (genero == null)
+            try
             {
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Genero não localizado!";
+                var query = new BuscarGeneroPorIdQuery(id);
+                var genero = await _mediator.Send(query);
+                if (genero == null)
+                {
+                    return CreateResponse(null, "Genero não localizado!", false, HttpStatusCode.NotFound);
+                }
+                return CreateResponse(genero, "Genero localizado com sucesso!", true, HttpStatusCode.OK);
             }
-            else
+            catch (Exception ex)
             {
-                _response.Result = genero;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Genero localizado com sucesso!";
+                return HandleError(ex, nameof(BuscarGeneroPorIdAsync));
             }
-
-
-            return Ok(_response);
         }
 
         [HttpPut]
@@ -83,35 +66,29 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                if (generoDto == null) return BadRequest();
-                var command = await _mediator.Send(generoDto);
-
-                _response.Result = command;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Genero atualizado com sucesso!";
+                var command = new AtualizarGeneroCommand(generoDto);
+                var result = await _mediator.Send(command);
+                return CreateResponse(result, "Genero atualizado com sucesso!", true, HttpStatusCode.OK);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                _response.Message = e.Message;
-                Log.Error(e, "Ocorreu um erro ao executar a operação AtualizarGeneroAsync: " + e.Message);
+                return HandleError(ex, nameof(AtualizarGeneroAsync));
             }
-
-            return Ok(_response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<RespostaDTO>>> BuscarTodosGenerosAsync()
+        public async Task<ActionResult<RespostaDTO>> BuscarTodosGenerosAsync()
         {
-            var query = new BuscarTodosGenerosQuery();
-            var generos = await _mediator.Send(query);
-
-            _response.Result = generos;
-            _response.IsSuccess = true;
-            _response.StatusCode = HttpStatusCode.OK;
-            return Ok(_response);
+            try
+            {
+                var query = new BuscarTodosGenerosQuery();
+                var generos = await _mediator.Send(query);
+                return CreateResponse(generos, "Generos localizados com sucesso!", true, HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return HandleError(ex, nameof(BuscarTodosGenerosAsync));
+            }
         }
 
         [HttpDelete("{id}")]
@@ -120,22 +97,13 @@ namespace SistemaBiblioteca.Controllers
             try
             {
                 var command = new DeletarGeneroCommand(id);
-                var result = await _mediator.Send(command);
-
-                _response.Result = result;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Genero deletado com sucesso!";
-
+                await _mediator.Send(command);
+                return CreateResponse(null, "Genero deletado com sucesso!", true, HttpStatusCode.OK);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                _response.Message = "Falha ao deletar genero!";
+                return HandleError(ex, nameof(DeletarGeneroAsync));
             }
-
-            return Ok(_response);
         }
     }
 }

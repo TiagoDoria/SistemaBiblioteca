@@ -3,14 +3,13 @@ using Application.Features.Livro.Commands;
 using Application.Features.Livro.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
 using System.Net;
 
 namespace SistemaBiblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class LivroController : ControllerBase
+    public class LivroController : BaseController
     {
         private readonly ILogger<LivroController> _logger;
         private RespostaDTO _response;
@@ -33,49 +32,33 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                if (livroDto == null) return BadRequest();
-                if (!ModelState.IsValid) return BadRequest();
-
                 var command = new CriarLivroCommand(livroDto);
                 await _mediator.Send(command);
-
-                _response.Result = livroDto;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Livro cadastrado com sucesso!";
+                return CreateResponse(livroDto, "Livro cadastrado com sucesso!", true, HttpStatusCode.Created);
             }
             catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.Message = ex.Message;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                Log.Error(ex, "Ocorreu um erro ao executar a operação CriarLivroAsync: " + ex.Message);
+                return HandleError(ex, nameof(CriarLivroAsync));
             }
-
-            return Ok(_response);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<RespostaDTO>> BuscarLivroPorIdAsync(Guid id)
         {
-            var query = new BuscarLivroPorIdQuery(id);
-            var livro = await _mediator.Send(query);
-
-            if (livro == null)
+            try
             {
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Livro não localizado!";
+                var query = new BuscarLivroPorIdQuery(id);
+                var livro = await _mediator.Send(query);
+                if (livro == null)
+                {
+                    return CreateResponse(null, "Livro não localizado!", false, HttpStatusCode.NotFound);
+                }
+                return CreateResponse(livro, "Livro localizado com sucesso!", true, HttpStatusCode.OK);
             }
-            else
+            catch (Exception ex)
             {
-                _response.Result = livro;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Livro localizado com sucesso!";
+                return HandleError(ex, nameof(BuscarLivroPorIdAsync));
             }
-
-
-            return Ok(_response);
         }
 
         [HttpPut]
@@ -83,35 +66,29 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                if (livroDto == null) return BadRequest();
-                var command = await _mediator.Send(livroDto);
-
-                _response.Result = command;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Livro atualizado com sucesso!";
+                var command = new AtualizarLivroCommand(livroDto);
+                var result = await _mediator.Send(command);
+                return CreateResponse(result, "Livro atualizado com sucesso!", true, HttpStatusCode.OK);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                _response.Message = e.Message;
-                Log.Error(e, "Ocorreu um erro ao executar a operação AtualizarLivroAsync: " + e.Message);
+                return HandleError(ex, nameof(AtualizarLivroAsync));
             }
-
-            return Ok(_response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<RespostaDTO>>> BuscarTodosLivrosAsync()
+        public async Task<ActionResult<RespostaDTO>> BuscarTodosLivrosAsync()
         {
-            var query = new BuscarTodosLivrosQuery();
-            var livros = await _mediator.Send(query);
-
-            _response.Result = livros;
-            _response.IsSuccess = true;
-            _response.StatusCode = HttpStatusCode.OK;
-            return Ok(_response);
+            try
+            {
+                var query = new BuscarTodosLivrosQuery();
+                var livros = await _mediator.Send(query);
+                return CreateResponse(livros, "Livros localizados com sucesso!", true, HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return HandleError(ex, nameof(BuscarTodosLivrosAsync));
+            }
         }
 
         [HttpDelete("{id}")]
@@ -120,22 +97,13 @@ namespace SistemaBiblioteca.Controllers
             try
             {
                 var command = new DeletarLivroCommand(id);
-                var result = await _mediator.Send(command);
-
-                _response.Result = result;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Livro deletado com sucesso!";
-
+                await _mediator.Send(command);
+                return CreateResponse(null, "Livro deletado com sucesso!", true, HttpStatusCode.OK);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                _response.Message = "Falha ao deletar livro!";
+                return HandleError(ex, nameof(DeletarLivroAsync));
             }
-
-            return Ok(_response);
         }
     }
 }

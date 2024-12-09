@@ -1,8 +1,11 @@
-﻿namespace Application.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Application.DTOs
 {
     public class GeneroDTO
     {
-        public int Id { get; private set; }
+        public Guid Id { get; private set; }
+        [Required(ErrorMessage = "Nome é obrigatório.")]
         public string Nome { get; private set; }
         public ICollection<LivroDTO> Livros { get; private set; }
     }

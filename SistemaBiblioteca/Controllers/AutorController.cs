@@ -1,16 +1,16 @@
 ﻿using Application.DTOs;
 using Application.Features.Autor.Commands;
 using Application.Features.Autor.Queries;
+using Application.Features.Livro.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
 using System.Net;
 
 namespace SistemaBiblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AutorController : ControllerBase
+    public class AutorController : BaseController
     {
         private readonly ILogger<AutorController> _logger;
         private RespostaDTO _response;
@@ -19,7 +19,6 @@ namespace SistemaBiblioteca.Controllers
         public AutorController(ILogger<AutorController> logger, IMediator mediator)
         {
             _logger = logger;
-            _response = new RespostaDTO();
             _mediator = mediator;
         }
 
@@ -33,49 +32,36 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                if (autorDto == null) return BadRequest();
-                if (!ModelState.IsValid) return BadRequest();
+                if (autorDto == null || !ModelState.IsValid) return BadRequest();
 
                 var command = new CriarAutorCommand(autorDto);
-                await _mediator.Send(command);
+                var result = await _mediator.Send(command);
 
-                _response.Result = autorDto;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Autor cadastrado com sucesso!";
+                return CreateResponse(autorDto, "Autor cadastrado com sucesso!", true, HttpStatusCode.Created);
             }
             catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.Message = ex.Message;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                Log.Error(ex, "Ocorreu um erro ao executar a operação CriarAutorAsync: " + ex.Message);
+                return HandleError(ex, nameof(CriarAutorAsync));
             }
-
-            return Ok(_response);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<RespostaDTO>> BuscarAutorPorIdAsync(Guid id)
         {
-            var query = new BuscarAutorPorIdQuery(id);
-            var autor = await _mediator.Send(query);
-
-            if (autor == null)
-            {             
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Autor não localizado!";
-            }
-            else
+            try
             {
-                _response.Result = autor;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Autor localizado com sucesso!";
+                var query = new BuscarAutorPorIdQuery(id);
+                var autor = await _mediator.Send(query);
+                if (autor == null)
+                {
+                    return CreateResponse(null, "Autor não localizado!", false, HttpStatusCode.NotFound);
+                }
+                return CreateResponse(autor, "Autor localizado com sucesso!", true, HttpStatusCode.OK);
             }
-           
-
-            return Ok(_response);
+            catch (Exception ex)
+            {
+                return HandleError(ex, nameof(BuscarAutorPorIdAsync));
+            }
         }
 
         [HttpPut]
@@ -83,35 +69,29 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                if (autorDto == null) return BadRequest();
-                var command = await _mediator.Send(autorDto);
-
-                _response.Result = command;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Autor atualizado com sucesso!";
+                var command = new AtualizarAutorCommand(autorDto);
+                var result = await _mediator.Send(command);
+                return CreateResponse(result, "Autor atualizado com sucesso!", true, HttpStatusCode.OK);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                _response.IsSuccess = false;
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                _response.Message = e.Message;
-                Log.Error(e, "Ocorreu um erro ao executar a operação AtualizarAutor: " + e.Message);
+                return HandleError(ex, nameof(AtualizarAutorAsync));
             }
-
-            return Ok(_response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<RespostaDTO>>> BuscarTodosAutoresAsync()
+        public async Task<ActionResult<RespostaDTO>> BuscarTodosAutoresAsync()
         {
-            var query = new BuscarTodosAutoresQuery();
-            var autores = await _mediator.Send(query);
-
-            _response.Result = autores;
-            _response.IsSuccess = true;
-            _response.StatusCode = HttpStatusCode.OK;
-            return Ok(_response);
+            try
+            {
+                var query = new BuscarTodosLivrosQuery();
+                var autores = await _mediator.Send(query);
+                return CreateResponse(autores, "Autores localizados com sucesso!", true, HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return HandleError(ex, nameof(BuscarTodosAutoresAsync));
+            }
         }
 
         [HttpDelete("{id}")]
@@ -119,14 +99,18 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                var command = new DeletarAutorCommand(id);
-                var result = await _mediator.Send(command);
+                try
+                {
+                    var command = new DeletarAutorCommand(id);
+                    var result = await _mediator.Send(command);
 
-                _response.Result = result;
-                _response.IsSuccess = true;
-                _response.StatusCode = HttpStatusCode.OK;
-                _response.Message = "Autor deletado com sucesso!";
-                
+                    return CreateResponse(result, "Autor deletado com sucesso!",true, HttpStatusCode.OK);
+                }
+                catch (Exception ex)
+                {
+                    return HandleError(ex, nameof(DeletarAutorAsync));
+                }
+
             }
             catch (Exception e)
             {
