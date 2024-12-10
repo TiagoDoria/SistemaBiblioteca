@@ -183,3 +183,11 @@ C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\De
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Humanizer.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

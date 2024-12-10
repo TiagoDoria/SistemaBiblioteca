@@ -5,9 +5,9 @@ namespace Domain.Entities
 {
     public class GeneroEntity
     {
-        public Guid Id { get; private set; }
+        public Guid Id { get; set; }
         [Required]
-        public NomeVO Nome { get; private set; }
-        public ICollection<LivroEntity> Livros { get; private set; }
+        public string Nome { get; set; }
+        public ICollection<LivroEntity> Livros { get; set; }
     }
 }

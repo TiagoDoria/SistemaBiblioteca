@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Application.csproj": {
+    "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\tiago.conceicao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tiago.conceicao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj"
+              "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj"
               }
             }
           }
@@ -78,6 +78,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -87,20 +101,20 @@
         }
       }
     },
-    "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj": {
+    "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\tiago.conceicao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tiago.conceicao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -157,6 +171,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -166,20 +194,20 @@
         }
       }
     },
-    "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\tiago.conceicao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tiago.conceicao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -195,11 +223,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\Application.csproj"
+              "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Application.csproj"
               },
-              "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Domain\\Domain.csproj"
+              "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\Domain.csproj"
               }
             }
           }
@@ -230,6 +258,16 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.36, )"
             }
           },
           "imports": [
@@ -243,6 +281,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

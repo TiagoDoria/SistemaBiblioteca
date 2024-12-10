@@ -23,3 +23,4 @@ C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Domain\obj\Debug\net6.0\
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\SistemaBiblioteca\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache

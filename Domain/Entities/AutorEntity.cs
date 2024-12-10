@@ -7,9 +7,9 @@ namespace Domain.Entities
     {
         public Guid Id { get; set; }
         [Required]
-        public NomeVO Nome { get; set; }
+        public string Nome { get; set; }
         [Required]
-        public DataNascimentoVO Nascimento { get; set; }
+        public DateTime Nascimento { get; set; }
         public ICollection<LivroEntity> Livros { get; set; }
     }
 }

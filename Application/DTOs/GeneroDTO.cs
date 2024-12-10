@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domain.ValueObjects;
+using System.ComponentModel.DataAnnotations;
 
 namespace Application.DTOs
 {
@@ -6,7 +7,7 @@ namespace Application.DTOs
     {
         public Guid Id { get; private set; }
         [Required(ErrorMessage = "Nome é obrigatório.")]
-        public string Nome { get; private set; }
+        public NomeVO Nome { get; private set; }
         public ICollection<LivroDTO> Livros { get; private set; }
     }
 }

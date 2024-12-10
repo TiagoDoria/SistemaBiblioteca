@@ -2,7 +2,7 @@
 
 namespace AuthBiblioteca.DTOs
 {
-    public class RespostaDTO<T>
+    public class ResponseDTO<T>
     {
         /// <summary>
         /// Indica se a operação foi bem-sucedida.

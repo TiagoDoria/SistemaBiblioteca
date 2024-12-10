@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domain.ValueObjects;
+using System.ComponentModel.DataAnnotations;
 
 namespace Application.DTOs
 {
@@ -6,8 +7,8 @@ namespace Application.DTOs
     {
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Nome é obrigatório.")]
-        public string Nome { get; set; }
+        public NomeVO Nome { get; set; }
         [Required(ErrorMessage = "Data Nascimento é obrigatório.")]
-        public DateTime Nascimento { get; set; }
+        public DataNascimentoVO Nascimento { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domain.ValueObjects;
+using System.ComponentModel.DataAnnotations;
 
 namespace Application.DTOs
 {
@@ -6,9 +7,9 @@ namespace Application.DTOs
     {
         public Guid Id { get; set; }
         [Required]
-        public string Nome { get; set; }
+        public NomeVO Nome { get; set; }
         [Required(ErrorMessage = "Data Lançamento é obrigatório.")]
-        public DateTime DataLancamento { get; set; }
+        public DataLancamentoVO DataLancamento { get; set; }
         [Required(ErrorMessage = "Autor é obrigatório.")]
         public Guid AutorId { get; set; }
         public AutorDTO AutorDto { get; set; }

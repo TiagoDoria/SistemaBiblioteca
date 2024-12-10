@@ -38,13 +38,22 @@ namespace AuthBiblioteca.Service
             return false;
         }
 
-        public async Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO)
+        public async Task<ResponseDTO<LoginResponseDTO>> Login(LoginRequestDTO loginRequestDTO)
         {
+            ResponseDTO<LoginResponseDTO> response = new();
+
             var user = _db.Usuarios.FirstOrDefault(u => u.UserName.ToLower() == loginRequestDTO.UserName.ToLower());
             bool isValid = await _userManager.CheckPasswordAsync(user, loginRequestDTO.Password);
+
             if (user == null || !isValid)
             {
-                return new LoginResponseDTO() { User = null, Token = "" };
+                LoginResponseDTO result = new LoginResponseDTO() { User = null, Token = "" };
+                response.IsSuccess = false;
+                response.Message = "Usuário ou senha inváalidos.";
+                response.StatusCode = HttpStatusCode.InternalServerError;
+                response.Result = result;
+
+                return response;
             }
 
             var roles = await _userManager.GetRolesAsync(user);
@@ -63,12 +72,17 @@ namespace AuthBiblioteca.Service
                 Token = token
             };
 
-            return responseDTO;
+            response.IsSuccess = true;
+            response.Result = responseDTO;
+            response.Message = "Usuário logado com sucesso!";
+            response.StatusCode = HttpStatusCode.OK;
+
+            return response;
         }
 
-        public async Task<RespostaDTO<UserDTO>> Register(RegistrationRequestDTO registrationRequestDTO)
+        public async Task<ResponseDTO<UserDTO>> Register(RegistrationRequestDTO registrationRequestDTO)
         {
-            RespostaDTO<UserDTO> response = new();
+            ResponseDTO<UserDTO> response = new();
 
             UsuarioEntity user = new()
             {

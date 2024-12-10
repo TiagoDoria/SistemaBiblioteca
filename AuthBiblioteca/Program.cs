@@ -1,3 +1,10 @@
+using AuthBiblioteca.Service.Interface;
+using AuthBiblioteca.Service;
+using Microsoft.EntityFrameworkCore;
+using AuthBiblioteca.Data;
+using Microsoft.AspNetCore.Identity;
+using AuthBiblioteca.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +13,18 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSettings:JwtOptions"));
+
+
+builder.Services.AddIdentity<UsuarioEntity, IdentityRole>().AddEntityFrameworkStores<AuthContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.AddDbContext<AuthContext>(options =>
+                           options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

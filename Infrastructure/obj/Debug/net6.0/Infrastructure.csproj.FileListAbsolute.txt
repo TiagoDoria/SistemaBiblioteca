@@ -34,3 +34,5 @@ C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Infrastructure\obj\Debug
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\DELL\Desktop\SistemaBiblioteca\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\DELL\Desktop\SistemaBiblioteca\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache

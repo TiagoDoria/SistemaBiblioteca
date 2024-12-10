@@ -18,9 +18,19 @@ namespace Application.Features.Autor.Handlers
 
         public async Task<IEnumerable<AutorDTO>> Handle(BuscarTodosAutoresQuery request, CancellationToken cancellationToken)
         {
-            var autores = await _autorRepository.GetAllAsync();
+            try
+            {
+                var autores = await _autorRepository.GetAllAsync();
+                return _mapper.Map<IEnumerable<AutorDTO>>(autores);
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+           
 
-            return _mapper.Map<IEnumerable<AutorDTO>>(autores);
+
+            
         }
     }
 }

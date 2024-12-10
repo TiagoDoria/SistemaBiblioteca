@@ -4,8 +4,8 @@ namespace AuthBiblioteca.Service.Interface
 {
     public interface IAuthService
     {
-        Task<RespostaDTO<UserDTO>> Register(RegistrationRequestDTO registrationRequestDTO);
-        Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO);
+        Task<ResponseDTO<UserDTO>> Register(RegistrationRequestDTO registrationRequestDTO);
+        Task<ResponseDTO<LoginResponseDTO>> Login(LoginRequestDTO loginRequestDTO);
         Task<bool> AssignRole(string email, string roleName);
     }
 }

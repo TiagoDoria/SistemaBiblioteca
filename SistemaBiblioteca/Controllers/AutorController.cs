@@ -3,6 +3,7 @@ using Application.Features.Autor.Commands;
 using Application.Features.Autor.Queries;
 using Application.Features.Livro.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -10,6 +11,7 @@ namespace SistemaBiblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class AutorController : BaseController
     {
         private readonly ILogger<AutorController> _logger;
@@ -84,7 +86,7 @@ namespace SistemaBiblioteca.Controllers
         {
             try
             {
-                var query = new BuscarTodosLivrosQuery();
+                var query = new BuscarTodosAutoresQuery();
                 var autores = await _mediator.Send(query);
                 return CreateResponse(autores, "Autores localizados com sucesso!", true, HttpStatusCode.OK);
             }

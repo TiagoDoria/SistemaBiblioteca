@@ -1,46 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\service\\interface\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\service\\interface\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\handlers\\buscartodosautoresqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\buscartodosautoresqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBBDD13-19BF-49AE-8191-043895F29B90}|SistemaBiblioteca\\SistemaBiblioteca.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\sistemabiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBBDD13-19BF-49AE-8191-043895F29B90}|SistemaBiblioteca\\SistemaBiblioteca.csproj|solutionrelative:sistemabiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\service\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\service\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\authbiblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBBDD13-19BF-49AE-8191-043895F29B90}|SistemaBiblioteca\\SistemaBiblioteca.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\sistemabiblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BBBDD13-19BF-49AE-8191-043895F29B90}|SistemaBiblioteca\\SistemaBiblioteca.csproj|solutionrelative:sistemabiblioteca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\application\\dtos\\respostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\dtos\\respostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BBBDD13-19BF-49AE-8191-043895F29B90}|SistemaBiblioteca\\SistemaBiblioteca.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\sistemabiblioteca\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBBDD13-19BF-49AE-8191-043895F29B90}|SistemaBiblioteca\\SistemaBiblioteca.csproj|solutionrelative:sistemabiblioteca\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\infrastructure\\data\\mappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\domain\\valueobjects\\nomevoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A675C8-5F61-4705-9A2D-F9B5A43E1DFA}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\nomevoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\handlers\\criarautorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\authbiblioteca\\authbiblioteca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3734C751-629A-41AC-816A-2AE81AAB843F}|AuthBiblioteca\\AuthBiblioteca.csproj|solutionrelative:authbiblioteca\\authbiblioteca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\queries\\buscartodosautoresquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\queries\\buscartodosautoresquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|c:\\users\\tiago.conceicao\\source\\repos\\sistemabiblioteca\\infrastructure\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE979B6-5D5F-4E8F-89DC-B70871159799}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|c:\\users\\dell\\desktop\\sistemabiblioteca\\application\\features\\autor\\queries\\buscarautorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACA813-7DEB-449C-990C-85364A3DFAA5}|Application\\Application.csproj|solutionrelative:application\\features\\autor\\queries\\buscarautorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 261,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IJwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Service\\Interface\\IJwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\Service\\Interface\\IJwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Service\\Interface\\IJwtTokenGenerator.cs",
-              "RelativeToolTip": "AuthBiblioteca\\Service\\Interface\\IJwtTokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:55:44.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\DTOs\\ResponseDTO.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\DTOs\\ResponseDTO.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\DTOs\\ResponseDTO.cs",
-              "RelativeToolTip": "AuthBiblioteca\\DTOs\\ResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:51:37.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RespostaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\DTOs\\RespostaDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\RespostaDTO.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Application\\DTOs\\RespostaDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\RespostaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:51:19.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Models\\Usuario.cs",
-              "RelativeToolTip": "AuthBiblioteca\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:47:23.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "AuthBiblioteca\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:43:36.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Service\\AuthService.cs",
-              "RelativeToolTip": "AuthBiblioteca\\Service\\AuthService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\SistemaBiblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaBiblioteca\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\SistemaBiblioteca\\Program.cs",
+              "RelativeToolTip": "SistemaBiblioteca\\Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAIMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:42:25.289Z",
+              "WhenOpened": "2024-12-10T02:21:44.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Service\\Interface\\IAuthService.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\Service\\Interface\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Service\\Interface\\IAuthService.cs",
-              "RelativeToolTip": "AuthBiblioteca\\Service\\Interface\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAhAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthBiblioteca\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\appsettings.json",
+              "RelativeToolTip": "AuthBiblioteca\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T02:21:35.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\SistemaBiblioteca\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaBiblioteca\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\SistemaBiblioteca\\appsettings.json",
+              "RelativeToolTip": "SistemaBiblioteca\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T02:21:23.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mappings.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Data\\Mappings.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Infrastructure\\Data\\Mappings.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Mappings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:41:07.947Z",
+              "WhenOpened": "2024-12-10T01:58:39.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Program.cs",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\Program.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\Program.cs",
-              "RelativeToolTip": "AuthBiblioteca\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CriarAutorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\CriarAutorCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:33:21.435Z",
+              "WhenOpened": "2024-12-10T01:43:59.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NomeVOConverter.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\ValueObjects\\NomeVOConverter.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\NomeVOConverter.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Domain\\ValueObjects\\NomeVOConverter.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\NomeVOConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:40:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\SistemaBiblioteca\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "SistemaBiblioteca\\Controllers\\AutorController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\SistemaBiblioteca\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "SistemaBiblioteca\\Controllers\\AutorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:23:57.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuscarTodosAutoresQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Autor\\Handlers\\BuscarTodosAutoresQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:23:11.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AuthBiblioteca",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj",
-              "RelativeDocumentMoniker": "AuthBiblioteca\\AuthBiblioteca.csproj",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj",
-              "RelativeToolTip": "AuthBiblioteca\\AuthBiblioteca.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T19:28:23.074Z",
+              "Title": "BuscarTodosAutoresQuery.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Autor\\Queries\\BuscarTodosAutoresQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:23:00.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BibliotecaContext.cs",
-              "DocumentMoniker": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Data\\BibliotecaContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\BibliotecaContext.cs",
-              "ToolTip": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\Infrastructure\\Data\\BibliotecaContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\BibliotecaContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "BuscarAutorQuery.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "RelativeToolTip": "Application\\Features\\Autor\\Queries\\BuscarAutorQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:17:50.181Z",
+              "WhenOpened": "2024-12-10T01:22:58.054Z",
               "EditorCaption": ""
             }
           ]
