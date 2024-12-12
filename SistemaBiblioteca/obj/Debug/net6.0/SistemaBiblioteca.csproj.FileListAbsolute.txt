@@ -191,3 +191,6 @@ C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Micro
 C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Humanizer.dll
 C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\DELL\Desktop\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Humanizer.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\tiago.conceicao\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

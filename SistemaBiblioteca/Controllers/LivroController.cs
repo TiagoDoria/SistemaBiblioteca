@@ -2,6 +2,7 @@
 using Application.Features.Livro.Commands;
 using Application.Features.Livro.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -9,6 +10,7 @@ namespace SistemaBiblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class LivroController : BaseController
     {
         private readonly ILogger<LivroController> _logger;

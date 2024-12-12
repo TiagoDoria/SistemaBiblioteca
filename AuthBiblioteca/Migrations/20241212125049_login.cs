@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AuthBiblioteca.Migrations
 {
-    public partial class auth : Migration
+    public partial class login : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

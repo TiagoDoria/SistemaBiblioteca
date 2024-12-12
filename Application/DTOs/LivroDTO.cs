@@ -12,9 +12,9 @@ namespace Application.DTOs
         public DataLancamentoVO DataLancamento { get; set; }
         [Required(ErrorMessage = "Autor é obrigatório.")]
         public Guid AutorId { get; set; }
-        public AutorDTO AutorDto { get; set; }
+        public AutorDTO? AutorLivro { get; set; }
         [Required(ErrorMessage = "Gênero é obrigatório.")]
         public Guid GeneroId { get; set; }
-        public GeneroDTO Genero { get; set; }
+        public GeneroDTO? Genero { get; set; }
     }
 }

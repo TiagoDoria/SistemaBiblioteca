@@ -18,9 +18,9 @@ namespace Application.Features.Livro.Handlers
 
         public async Task<IEnumerable<LivroDTO>> Handle(BuscarTodosLivrosQuery request, CancellationToken cancellationToken)
         {
-            var autores = await _livroRepository.GetAllAsync();
+            var livros = await _livroRepository.GetAllLivrosAsync();
 
-            return _mapper.Map<IEnumerable<LivroDTO>>(autores);
+            return _mapper.Map<IEnumerable<LivroDTO>>(livros);
         }
     }
 }

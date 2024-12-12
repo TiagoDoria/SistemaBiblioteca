@@ -2,6 +2,7 @@
 using Application.Features.Genero.Commands;
 using Application.Features.Genero.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -9,6 +10,7 @@ namespace SistemaBiblioteca.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class GeneroController : BaseController
     {
         private readonly ILogger<GeneroController> _logger;

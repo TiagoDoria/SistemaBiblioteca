@@ -12,9 +12,9 @@ namespace Domain.Entities
         public DateTime DataLancamento { get; set; }
         [Required]
         public Guid AutorId { get; set; }
-        public AutorEntity AutorLivro { get; set; }
+        public AutorEntity? AutorLivro { get; set; }
         [Required]
         public Guid GeneroId { get; set; }
-        public GeneroEntity Genero { get; set; }
+        public GeneroEntity? Genero { get; set; }
     }
 }

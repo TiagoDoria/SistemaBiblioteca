@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj": {}
+    "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj": {
+    "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj",
         "projectName": "AuthBiblioteca",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\SistemaBiblioteca\\AuthBiblioteca\\obj\\",
+        "projectPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\AuthBiblioteca.csproj",
+        "packagesPath": "C:\\Users\\tiago.conceicao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tiago.conceicao\\source\\repos\\SistemaBiblioteca\\AuthBiblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tiago.conceicao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,24 +88,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.35, 6.0.35]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

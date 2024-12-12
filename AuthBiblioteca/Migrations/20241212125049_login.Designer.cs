@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuthBiblioteca.Migrations
 {
     [DbContext(typeof(AuthContext))]
-    [Migration("20241209231818_auth")]
-    partial class auth
+    [Migration("20241212125049_login")]
+    partial class login
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

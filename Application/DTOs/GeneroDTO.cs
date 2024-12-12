@@ -7,7 +7,7 @@ namespace Application.DTOs
     {
         public Guid Id { get; private set; }
         [Required(ErrorMessage = "Nome é obrigatório.")]
-        public NomeVO Nome { get; private set; }
-        public ICollection<LivroDTO> Livros { get; private set; }
+        public NomeVO Nome { get; set; }
+        public ICollection<LivroDTO>? Livros { get; set; }
     }
 }
