@@ -2,7 +2,10 @@
 {
     public class DataNascimentoVO
     {
-        public DateTime Value { get; private set; }
+        public DateTime Value { get; set; }
+
+        // Construtor sem parâmetros para permitir a deserialização
+        public DataNascimentoVO() { }
 
         public DataNascimentoVO(DateTime value)
         {

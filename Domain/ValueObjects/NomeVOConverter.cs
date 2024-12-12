@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
 using System.Text.Json;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Domain.ValueObjects
 {
@@ -12,12 +8,14 @@ namespace Domain.ValueObjects
     {
         public override NomeVO Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
-            var nameString = reader.GetString();
-            return new NomeVO(nameString);
+            // O valor é simplesmente a string representando o nome
+            var value = reader.GetString();
+            return new NomeVO(value);
         }
 
         public override void Write(Utf8JsonWriter writer, NomeVO value, JsonSerializerOptions options)
         {
+            // Durante a serialização, apenas escreva o valor do nome
             writer.WriteStringValue(value.Value);
         }
     }

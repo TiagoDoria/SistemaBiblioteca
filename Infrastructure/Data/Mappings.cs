@@ -26,7 +26,7 @@ namespace Infrastructure.Data
                 config.CreateMap<LivroDTO, LivroEntity>()
                     .ForMember(dest => dest.Nome, opt => opt.MapFrom(src => src.Nome.Value))
                     .ForMember(dest => dest.DataLancamento, opt => opt.MapFrom(src => src.DataLancamento.Value))
-                    .ForMember(dest => dest.Autores, opt => opt.MapFrom(src => src.AutorLivro))
+                    .ForMember(dest => dest.AutorLivro, opt => opt.MapFrom(src => src.AutorLivro))
                     .ForMember(dest => dest.Genero, opt => opt.MapFrom(src => src.Genero));
 
                 // Mapeamento reverso: LivroEntity para LivroDTO
